@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=add_photo_alternate" />
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>𝕏</text></svg>">
+
+
+</head>
+
+<body class="bg-black ml-2 lg:flex justify-center items-center">
+    <div class="flex w-10/12 h-full md:container my-4"">
+        <div class="h-full fixed w-8 md:w-48 lg:w-60 border-r-[1px] border-slate-500 ">
+            <div>
+                <img class="h-8 w-8 " src="logo.jpg" alt="Twitter logo">
+            </div>
+            <div class="sidebar">
+                <ul>
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-house-chimney-user mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"><span class="hidden lg:block" >Home</span></li>
+                        </a>
+                    </div>
+
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-magnifying-glass mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"> <span class="hidden md:block" >Explore</span></li>
+                        </a>
+                    </div>
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-bell mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"> <span class="hidden md:block" >Notifications</span></li>
+                        </a>
+                    </div>
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-envelope mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"> <span class="hidden md:block" >Messages</span></li>
+                        </a>
+                    </div>
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-parachute-box mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"> <span class="hidden md:block" >Grok</span></li>
+                        </a>
+                    </div>
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-rectangle-list mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"> <span class="hidden md:block">Listes</span></li>
+                        </a>
+                    </div>
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-bookmark mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"> <span class="hidden md:block">Bookmark</span></li>
+                        </a>
+                    </div>
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-people-group mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"> <span class="hidden md:block">Communities</span></li>
+                        </a>
+                    </div>
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-hand-holding-dollar mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"> <span class="hidden md:block">Premium</span></li>
+                        </a>
+                    </div>
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-user mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"> <span class="hidden md:block" >Profile</span></li>
+                        </a>
+                    </div>
+                    <div class="flex mt-4 item-animate">
+                        <div><i class="fa-solid fa-circle-nodes mr-5 text-white text-xl"></i></div>
+                        <a href="">
+                            <li class="font-bold text-white"> <span class="hidden md:block" >More</span></li>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+            <div>
+                <button class="main_post hidden md:block bg-[#1D9BF0] text-white mt-3 text-lg font-medium px-8 py-2 rounded-full 
+           transition-all duration-300 ease-in-out 
+           hover:bg-[#1A8CD8] hover:scale-105 
+           active:scale-95 active:brightness-90
+           shadow-[0_4px_15px_rgba(29,155,240,0.4)] hover:shadow-[0_6px_20px_rgba(29,155,240,0.6)] w-48  ">
+                    Post
+                </button>
+            </div>
+
+            <div class="userprofile  w-full hidden md:flex  text-white mt-6 ">
+                <img src="vegeta.jpeg" alt="Vegeta" class="p-0 m-0 md:h-12 md:w-12 h-6 w-6 rounded-[50%]">
+                <div class="ml-3 hidden md:block">
+                    <h1>Vegeta</h1>
+                    <p class="text-xs text-slate-600 ">@saiyanPrince_Vegeta</p>
+                </div>
+                <div class="text-xs cursor-pointer hidden md:block "><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+        </div>
+
+
+        <div class=" middle ml-10 w-8/12 text-white md:ml-60 border-r-[1px] border-slate-500">
+            <div class="flex mt-5 border-b-[1px] border-slate-500">
+                <div
+                    class="text-white font-bold w-64 flex items-center justify-center  cursor-pointer  border-blue-500 hover:border-b-2">
+                    For You</div>
+                <div
+                    class="text-white font-bold w-64 items-center justify-center flex cursor-pointer border-blue-500 hover:border-b-2">
+                    Following</div>
+                <div><i class="fa-solid fa-gear ml-6 cursor-pointer"></i></div>
+            </div>
+
+            <div class=" border-b-[1px] border-slate-500 ">
+                <div class="flex  mt-3 mx-2 ">
+                    <div class="p-0 m-0 h-10 w-10 rounded-[50%]"><img src="vegeta.jpeg" alt="Vegeta"></div>
+                    <div class=" ml-5 border-b-[1px] border-slate-500 w-full">
+                        <div class=" text-slate-600 "><input type="text"
+                                class="h-14 bg-transparent focus:bg-transparent focus:outline-none focus:ring-0 placeholder:absolute placeholder:top-1 relative pt-4"
+                                placeholder="What is happening!?">
+                        </div>
+                        <div class="text-blue-500 mb-4"><a href=""><i class="fa-solid fa-earth-americas"></i>Everyone
+                                can reply</a></div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between h-10 items-center">
+                    <div class="text-blue-500 ml-16">
+                        <i class="fa-solid fa-image p-2  cursor-pointer"></i>
+                        <i class="fa-solid fa-list p-2 cursor-pointer"></i>
+                        <i class="fa-solid fa-calendar-days p-2 cursor-pointer"></i>
+                        <i class="fa-solid fa-child-reaching p-2 cursor-pointer"></i>
+                        <i class="fa-solid fa-location-dot p-2 cursor-pointer"></i>
+                    </div>
+                    <div><button class=" sec_post h-8 w-16 bg-[#1A8CD8] rounded-xl mr-2">Post</button></div>
+                </div>
+            </div>
+
+            <div class="mt-4 mx-2 flex">
+                <div><img src="https://i.redd.it/n9vx5nzrc6971.png" alt="kageyama"
+                        class="p-0 m-0 h-10 w-10 rounded-[50%]"></div>
+                <div class="ml-3 flex items-center justify-center">
+                    <h1 class="font-bold">Itachi Uchiha</h1>
+                    <p class="text-xs text-slate-600 ml-1">@itachi_mangekyo_sharingan • 6h</p>
+                    <div class="text-xs text-slate-600 ml-44 cursor-pointer"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+            </div>
+            <p class="text-sm ml-16">“Sometimes, peace comes only after walking through darkness. The truth isn’t always
+                what it seems — stay calm, stay patient. 🌒 #Uchiha #ItachiWisdom”</p>
+            <div class="ml-16 flex justify-between mt-5 w-96 text-xs text-slate-600 ">
+                <i class="fa-regular fa-comments">10k</i>
+                <i class="fa-regular fa-share-from-square">2k</i>
+                <i class="fa-regular fa-heart">100k</i>
+                <i class="fa-solid fa-chart-simple"></i>
+            </div>
+
+            <!-- 1st Meme -->
+            <div class="mt-4 mx-2 flex">
+                <div><img
+                        src="https://pm1.aminoapps.com/7842/fe1fcc1d4a241320c72f1b0cec3815047ec66330r1-1080-1080v2_hq.jpg"
+                        alt="Tobirama Senju" class="p-0 m-0 h-10 w-10 rounded-[50%]"></div>
+                <div class="ml-3 flex items-center justify-center">
+                    <div class="flex items-center justify-center">
+                        <h1 class="font-bold">Tobirama Senju</h1>
+                        <p class="text-xs text-slate-600 ml-1">@tobirama_senju • 6h</p>
+                    </div>
+                    <div class="text-xs text-slate-600  cursor-pointer md:ml-56"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+            </div>
+            <p class="text-sm ml-16">This is what i want to say</p>
+            <img src="https://imgix.ranker.com/user_node_img/50108/1002151635/original/1002151635-photo-u1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=355"
+                alt="meme" class="h-72 w-80 ml-16 mt-2 rounded-xl">
+            <div class="ml-16 flex justify-between mt-5 w-96 text-xs text-slate-600 ">
+                <i class="fa-regular fa-comments">45k</i>
+                <i class="fa-regular fa-share-from-square">67k</i>
+                <i class="fa-regular fa-heart">200k</i>
+                <i class="fa-solid fa-chart-simple"></i>
+            </div>
+
+            <!-- 2nd Meme -->
+            <div class="mt-4 mx-2 flex">
+                <div><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkPn91it9W2KyE5XQPaSLdzuxMwVbo2GQIBw&s"
+                        alt="Levi Ackermen" class="p-0 m-0 h-10 w-10 rounded-[50%]"></div>
+                <div class="ml-3 flex items-center justify-center">
+                    <div class="flex items-center justify-center">
+                        <h1 class="font-bold">Levi Ackermen</h1>
+                        <p class="text-xs text-slate-600 ml-1">@Scout_Levi • 18h</p>
+                    </div>
+                    <div class="text-xs text-slate-600  cursor-pointer md:ml-56"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+            </div>
+            <p class="text-sm ml-16">What about this Scout Members</p>
+            <img src="https://i.pinimg.com/474x/06/3c/62/063c6275a52e7b2ab0e17eb2732b1edf.jpg" alt="meme"
+                class="h-72 w-80 ml-16 mt-2 rounded-xl">
+            <div class="ml-16 flex justify-between mt-5 w-96 text-xs text-slate-600 ">
+                <i class="fa-regular fa-comments">90k</i>
+                <i class="fa-regular fa-share-from-square">20k</i>
+                <i class="fa-regular fa-heart">1M</i>
+                <i class="fa-solid fa-chart-simple"></i>
+            </div>
+
+            <!-- 3RD Meme -->
+            <div class="mt-4 mx-2 flex">
+                <div><img src="https://i.pinimg.com/736x/51/44/f7/5144f729885cfb63e2e05ce38ae15544.jpg"
+                        alt="Tomioka Giyu" class="p-0 m-0 h-10 w-10 rounded-[50%]"></div>
+                <div class="ml-3 flex items-center justify-center">
+                    <div class="flex items-center justify-center">
+                        <h1 class="font-bold">Tomioka Giyu</h1>
+                        <p class="text-xs text-slate-600 ml-1">@waterHashira_Giyu • 12h</p>
+                    </div>
+                    <div class="text-xs text-slate-600  cursor-pointer md:ml-44"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+            </div>
+            <p class="text-sm ml-16">I think this about You Corp</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDBWAjfY8IbCOBnsenA6iqmhMJYTd80PhDA&s"
+                alt="meme" class="h-80 w-96 ml-16 mt-2 rounded-xl">
+            <div class="ml-16 flex justify-between mt-5 w-96 text-xs text-slate-600 ">
+                <i class="fa-regular fa-comments">190k</i>
+                <i class="fa-regular fa-share-from-square">90k</i>
+                <i class="fa-regular fa-heart">100M</i>
+                <i class="fa-solid fa-chart-simple"></i>
+            </div>
+
+            <!-- 4Th Meme -->
+            <div class="mt-4 mx-2 flex">
+                <div><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-TEbgefPA72PVpqEa9X4qMPLaxLvheGARw&s"
+                        alt="uchiha Zoro" class="p-0 m-0 h-10 w-10 rounded-[50%]"></div>
+                <div class="ml-3 flex items-center justify-center">
+                    <div class="flex items-center justify-center">
+                        <h1 class="font-bold">uchiha Zoro</h1>
+                        <p class="text-xs text-slate-600 ml-1">@uchiha_Zoro • 2h</p>
+                    </div>
+                    <div class="text-xs text-slate-600  cursor-pointer md:ml-56"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+            </div>
+            <p class="text-sm ml-16 ">Hehe</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQqLhN38vN_oHqS3izdRCrjuU0cprwLh7emA&s"
+                alt="meme" class="h-72 w-80 ml-16 mt-2 rounded-xl">
+            <div class="ml-16 flex justify-between mt-5 w-96 text-xs text-slate-600">
+                <i class="fa-regular fa-comments">10k</i>
+                <i class="fa-regular fa-share-from-square">2k</i>
+                <i class="fa-regular fa-heart">100k</i>
+                <i class="fa-solid fa-chart-simple"></i>
+            </div>
+        </div>
+
+
+
+
+        <div class="third w-64  text-white hidden md:block">
+            <div class="ml-5">
+                <div class="flex bg-gray-900 w-60 rounded-3xl justify-center items-center h-10 text-slate-600">
+                    <i class="fa-solid fa-magnifying-glass mr-3 "></i>
+                    <input class="bg-transparent text-sm focus:bg-transparent focus:outline-none focus:ring-0"
+                        type="search" name="query" placeholder="Search" />
+                </div>
+
+                <div class="text-white bg-gray-900 mt-4 rounded-xl">
+                    <h1 class="ml-4 font-bold text-base mt-2">Subscibe To Premium</h1>
+                    <p class="ml-4 text-xs my-2">Subscibe to unlock the new features and if eligible , recieve a share
+                        of ad
+                        revenue</p>
+                    <button class="sub_but bg-[#1D9BF0] text-white w-24 text-lg font-bold  rounded-full 
+           transition-all duration-300 ease-in-out 
+           hover:bg-[#1A8CD8] hover:scale-105 
+           active:scale-95 active:brightness-90
+           shadow-[0_4px_15px_rgba(29,155,240,0.4)] hover:shadow-[0_6px_20px_rgba(29,155,240,0.6)] ml-4 h-8 mb-3">
+                        Subscibe
+                    </button>
+                </div>
+
+                <div class="text-white bg-gray-900 mt-4 rounded-xl pb-6">
+                    <h1 class="ml-4 font-bold text-base mt-2">What's Happening</h1>
+                    <div class="flex mt-3 ml-4 ">
+                        <div class="">
+                            <h1 class="text-sm font-bold">Menswear Fashion weeks</h1>
+                            <p class="text-xs text-slate-600">Fashion • Live</p>
+                        </div>
+                        <div>
+                            <img src="menswear.webp" alt="menswear" class="h-16 ml-1 w-14  rounded-xl">
+                        </div>
+                    </div>
+
+                    <div class="mt-8 flex">
+                        <div>
+                            <p class="text-xs ml-4 text-slate-600">Trending in India</p>
+                            <p class="text-xs font-bold ml-4 ">#Pranxbecomescoder</p>
+                            <p class="text-xs ml-4 text-slate-600">1299 posts</p>
+                        </div>
+
+                        <div class="text-xs text-slate-600 ml-20 cursor-pointer"><i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 flex">
+                        <div>
+                            <p class="text-xs ml-4 text-slate-600">Trending in India</p>
+                            <p class="text-xs font-bold ml-4 ">#CBNkilledNTR</p>
+                            <p class="text-xs ml-4 text-slate-600">75765 posts</p>
+                        </div>
+
+                        <div class="text-xs text-slate-600 ml-28"><a href=""><i class="fa-solid fa-ellipsis"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-white bg-gray-900 mt-4 rounded-xl justify-between">
+                    <div class="flex mt-2 justify-between">
+                        <img class="h-10 w-10 rounded-md ml-2 mt-2"
+                            src="https://assets.vercel.com/image/upload/front/vercel/twitter-card.png" alt="vercel">
+                        <div class="mt-1">
+                            <p class="mr-10 p-0">Vercel</p>
+                            <p class="text-xs text-slate-600 ">@vercel</p>
+                        </div>
+                        <button
+                            class="follow_butt bg-white text-black w-16 h-8 text-sm font-bold  rounded-full  mt-2 ">Follow</button>
+                    </div>
+
+                    <div class="flex mt-2 justify-between">
+                        <img class="h-10 w-10 rounded-md ml-2 mt-2"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbAmafdPNr9fd0KC0Z98WYEC7Wl1wYlPVf-A&s"
+                            alt="react">
+                        <div class="mt-1">
+                            <p class="mr-10 p-0">React</p>
+                            <p class="text-xs text-slate-600 ">@react</p>
+                        </div>
+                        <button
+                            class="follow_butt bg-white text-black w-16 h-8 text-sm font-bold  rounded-full mt-2 ">Follow</button>
+                    </div>
+
+                    <div class="flex mt-2 justify-between">
+                        <img class="h-10 w-10 rounded-md ml-2 mt-2"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxHf3zDP10If3lMONwl7DUJM-hgR9EGZoaVfQEOCdkLG9jkLZedn_tX24vxArc9OHVNaY&usqp=CAU"
+                            alt="Nodejs">
+                        <div class="mt-1">
+                            <p class="mr-10 p-0">Nodejs</p>
+                            <p class="text-xs text-slate-600 ">@nodejs</p>
+                        </div>
+                        <button
+                            class="follow_butt bg-white  text-black w-16 h-8 text-sm font-bold  rounded-full mt-2 ">Follow</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.item-animate {
+  transition: all 0.3s ease-in-out;
+}
+
+.item-animate:hover {
+  transform: scale(1.08);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.item-animate i,
+.item-animate li {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.item-animate:hover i,
+.item-animate:hover li {
+  transform: scale(1.15);
+  color: #1D9BF0; 
+}

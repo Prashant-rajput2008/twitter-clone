@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - X Clone (Dark Mode)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #15202b; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #192734; 
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #1da1f2; 
+        }
+
+        p {
+            margin-bottom: 25px;
+            color: #8899a6; 
+            font-size: 14px;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border: 1px solid #38444d;
+            border-radius: 8px;
+            background-color: #22303c;
+            color: #e1e8ed;
+            font-size: 16px;
+            transition: border-color 0.3s, background-color 0.3s;
+        }
+
+        input[type="text"]::placeholder,
+        input[type="email"]::placeholder,
+        input[type="password"]::placeholder {
+            color: #8899a6;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            border-color: #1da1f2;
+            outline: none;
+            background-color: #22303c;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #1da1f2;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0d95e8;
+        }
+
+        .links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+        }
+
+        .links a {
+            color: #1da1f2;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            form {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form action="/submit.php" method="POST">
+        <h2>Sign Up</h2>
+        <p>Enter Your Email ID to sign up on X (Twitter) Clone By Pranx</p>
+        <input type="text" name="email" placeholder="Email ID" required>
+        <input type="submit" value="Sign Up">
+        <div class="links">
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+        </div>
+    </form>
+</body>
+</html>
