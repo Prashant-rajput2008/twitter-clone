@@ -4,11 +4,11 @@ let sub_but = document.querySelector(".sub_but")
 let follow_butt = document.querySelector(".follow_butt")
 
 main_post.addEventListener("click" , ()=>{
-    window.location.href = "/other_pages/login.html" , "_blank";
+    window.location.href = "other_pages/login.html" , "_blank";
 })
 
 sec_post.addEventListener("click" , ()=>{
-    window.location.href = "/other_pages/login.html" , "_blank";
+    window.location.href = "other_pages/login.html" , "_blank";
 })
 
 sub_but.addEventListener("click" , ()=>{
@@ -16,5 +16,5 @@ sub_but.addEventListener("click" , ()=>{
 })
 
 follow_butt.addEventListener("click" , ()=>{
-    window.location.href = "/other_pages/login.html" , "_blank";
+    window.location.href = "other_pages/login.html" , "_blank";
 })
